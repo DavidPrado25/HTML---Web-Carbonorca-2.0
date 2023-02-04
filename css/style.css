@@ -328,7 +328,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width:768px) {
     .navbar-default {
         background-color: transparent;
-        padding: 12px 0;
+        padding: 44px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -405,6 +405,11 @@ fieldset[disabled] .btn-xl.active {
     position: relative;
     color: #fff;
     height: 100%;
+}
+
+.cintilloLogoGobierno img{
+    width: 100%;
+    position: relative;
 }
 
 .intro-text {
