@@ -1017,8 +1017,8 @@ section#portfolio {
 }
 
 .img-responsive2 {
-    height: 320%;
-    width: 320%;
+    width: 150%;
+   background-position: -100px 20px;
 }
 
 .portfolio-items {
