@@ -102,6 +102,7 @@ h6 {
     font-family: "lato";
     text-transform: uppercase;
     font-weight: 900;
+    text-align: center;
 
 }
 
@@ -1488,8 +1489,8 @@ body {
 /* 11.0 =========================================================================  TESTIMONIALS  ==*/
 
 #testimonials {
-    background: #266DD1;
-    padding: 70px 0 100px 0;
+    background: #003f97;
+    padding: 12px 0 100px 0;
     min-height: 450px;
 
 }
@@ -1570,13 +1571,13 @@ section#testimonials .section-subheading {
 }
 
 section#contact {
-    background-image: url(../img/backgrounds/contact-img.png);
+    background-image: url(../img/backgrounds/Carbonorca-nueva2.jpg);
     background-position: center;
     background-size: cover;
-    padding-bottom: 110px;
-    min-height: 900px;
+    padding-bottom: 40px;
+    min-height: 748px;
    box-shadow: none !important;
-  margin-bottom: 0px !important;
+  margin-bottom: 2px !important;
 }
 
 
