@@ -1087,8 +1087,8 @@ section#portfolio {
     position: absolute;
     text-align: center;
     margin: 0 auto;
-    color: #ffffff;
-    background: linear-gradient(to right, #7b4397, #dc2430);
+    color: #000000;
+    background: linear-gradient(to right, #3400f1, #ffffff, #000000);
     padding: 25% 0;
     height: 100%;
     width: 100%;
@@ -2020,4 +2020,9 @@ ul.social-buttons li a:active {
     box-shadow: 0 0 16px #000000;
     font-size: 'lato';
   }
-  
+ 
+  .footer ul.socialIcons li.youtube {
+    background-color: #d60000;
+    box-shadow: 0 0 16px #000000;
+    font-size: 'lato';
+  }
