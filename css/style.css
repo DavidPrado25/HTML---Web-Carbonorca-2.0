@@ -1416,7 +1416,17 @@ body {
 .pricing ul li {
     padding: 8px 0;
     font-size: 15px;
-    font-family: "source sans pro"
+    font-family: "source sans pro";
+    font-weight: bold;
+}
+
+.pricing ul .productoImagen {
+    
+    background-color: rgb(223, 217, 217);
+}
+
+.pricing ul li img {
+    width: 95%;
 }
 
 .pricing a.btn-send {
@@ -1487,7 +1497,7 @@ body {
 }
 
 
-/* 11.0 =========================================================================  TESTIMONIALS  ==*/
+/* 11.0 =========================================================================  NOTICIAS  ==*/
 
 #testimonials {
     background: #003f97;
