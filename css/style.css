@@ -233,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 /* 2.0 ==========   NAVBAR   =============================================================================*/
 
 .top-nav {
-    width: 95%;
+    width: 100%;
 }
 
 .navbar-default {
@@ -330,7 +330,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width:768px) {
     .navbar-default {
         background-color: transparent;
-        padding: 80px 0;
+        padding: 100px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -1357,7 +1357,7 @@ body {
 }
 
 
-/* 9.0 ============  PRICING  = */
+/* 9.0 ============  PRICING  = Productos */ 
 
 #pricing {
     background-color: #FEFEFE;
@@ -1506,7 +1506,7 @@ body {
 }
 
 
-/* 11.0 =========================================================================  NOTICIAS  ==*/
+/* 11.0 ==============================================  NOTICIAS  ==*/
 
 #testimonials {
     background: #003f97;
@@ -1931,39 +1931,6 @@ ul.social-buttons li a:active {
     width: 100%;
 }
 
-/*Diseño I*/
-/*.footer ul.social-iconsfooter li{ 
-	display:inline-block;
-	float:none;
-	position:relative;
-	margin-right:5px;
-	
-    border-radius: 0px 288px 400px 400px / 0px 135px 12px 105px;
-}
-.footer ul.social-iconsfooter li a {
-	color: #ffffff;
-	width:45px;
-	height:45px;
-	line-height:45px;
-	display:inline-block;
-}
-
-.footer ul.social-iconsfooter li.facebook{
-    background: rgba(0, 0, 255, 0.753);
-}
-
-.footer ul.social-iconsfooter li.twitter{
-    background: rgba(0, 164, 240, 0.884);
-}
-
-.footer ul.social-iconsfooter li.instagram{
-    background: rgba(255, 0, 76, 0.74);
-}
-
-.footer ul.social-iconsfooter li.tiktok{
-    background: rgba(0, 0, 0, 0.74);
-}
-*/
 
 .footer {
 	background: rgb(34 31 31);
