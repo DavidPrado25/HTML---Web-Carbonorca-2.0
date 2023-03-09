@@ -10,12 +10,21 @@ sr.reveal('.img-responsive2',{
 });
 
 sr.reveal('.cintilloLogoGobierno',{
-  duration:1500
+  duration:1500,
+  rotate:{
+    x:120,
+    y:0,
+    z:2 
+  }
 });
 
 ScrollReveal().reveal('.navbar-collapse', { duration: 2700 });
 ScrollReveal().reveal('.carousel', { duration: 4000 });
 
 ScrollReveal().reveal('.productoImagen', {
-  duration: 4000
+  duration: 6000, rotate:{
+    x:80,
+    y:0,
+    z:0 
+  }
 });
