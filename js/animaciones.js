@@ -22,9 +22,9 @@ ScrollReveal().reveal('.navbar-collapse', { duration: 2700 });
 ScrollReveal().reveal('.carousel', { duration: 4000 });
 
 ScrollReveal().reveal('.productoImagen', {
-  duration: 6000, rotate:{
-    x:80,
-    y:0,
-    z:0 
-  }
+  origin   : 'bottom',
+  distance : '20px',
+  duration : 2000,
+  easing   : 'cubic-bezier(0.5, 0, 0, 1)',
+  interval : 200
 });
