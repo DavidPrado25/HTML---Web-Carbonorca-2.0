@@ -531,14 +531,14 @@ fieldset[disabled] .btn-xl.active {
     margin-top: -20px;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 60%;
     width: 32px;
     z-index: 999;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
     -o-transition: 300ms;
     -ms-transition: 300ms;
-    transition: 300ms;
+    transition: 200ms;
 }
 
 .myCarousel-one-left {
@@ -2001,7 +2001,7 @@ ul.social-buttons li a:active {
   
 .footer ul.socialIcons li.instagram {
     background-color: #cd486b;
-    box-shadow: 40 10 40px #cd486b;
+    box-shadow: 40 10 40px #ff0044;
     font-size: 'lato';
   }
     
@@ -2013,7 +2013,7 @@ ul.social-buttons li a:active {
  
   .footer ul.socialIcons li.youtube {
     background-color: #d60000;
-    box-shadow: 0 0 16px #000000;
+    box-shadow: 0 0 16px #ff0000;
     font-size: 'lato';
   }
 
