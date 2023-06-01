@@ -2,6 +2,7 @@ window.sr=ScrollReveal();
  
 //Efecto para logo.
 sr.reveal('.img-responsive2',{
+    distance:'50px',
     duration:7000,
     rotate:{
       x:2,
@@ -19,12 +20,14 @@ ScrollReveal().reveal('.nav-buttons',{
 });
 
 sr.reveal('.cintilloLogoGobierno',{
-  duration:2500,
-  rotate:{
+  origin   :'right',
+  duration:2000,
+  distance: '1000px'
+/*rotate:{
     x:120,
     y:0,
     z:2 
-  }
+  }*/
 });
 
 ScrollReveal().reveal('.navbar-collapse', { duration: 2000 });
@@ -32,7 +35,7 @@ ScrollReveal().reveal('.container-fluid', { duration: 2000 });
 ScrollReveal().reveal('.carousel', { duration: 3000 });
 
 ScrollReveal().reveal('.wrapper', { 
-  origin   : 'bottom',
+  origin   : 'right',
   distance : '20px',
   duration : 3000,
   easing   : 'cubic-bezier(0.5, 0, 0, 1)',
@@ -41,25 +44,25 @@ ScrollReveal().reveal('.wrapper', {
 });
 
 ScrollReveal().reveal('.container-fluid', {
-  origin   : 'bottom',
+  origin   : 'right',
   distance : '20px',
-  duration : 5000,
+  duration : 3500,
   easing   : 'cubic-bezier(0.5, 0, 0, 1)',
   interval : 200 
 })
 
 ScrollReveal().reveal('.col-sm-3', {
-  origin   : 'bottom',
+  origin   : 'right',
   distance : '20px',
-  duration : 4000,
+  duration : 3200,
   easing   : 'cubic-bezier(0.5, 0, 0, 1)',
   interval : 200
 });
 
 ScrollReveal().reveal('.contactosEdit', { 
-  origin   : 'rigth',
-  distance : '100px',
-  duration : 5000,
+  origin   : 'right',
+  distance : '150px',
+  duration : 3000,
   easing   : 'cubic-bezier(0.5, 0, 0, 1)',
   interval : 200 
 

@@ -83,7 +83,7 @@ a.active {
 }
 
 a {
-    color: #05a0ce;
+    color: #ffffffe5;
 }
 
 a:hover,
@@ -1083,7 +1083,7 @@ section#portfolio {
 }
 
 .portfolio-item:hover {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.349);
     z-index: 9999;
 }
 
@@ -1097,14 +1097,14 @@ section#portfolio {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: all 0.5s;
+    transition: all 0.9s;
 }
 
 .hover-bg .hover-text>h4 {
     opacity: 0;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
-    transition: all 0.3s;
+    transition: all 0.2s;
     font-size: 35px;
 }
 
