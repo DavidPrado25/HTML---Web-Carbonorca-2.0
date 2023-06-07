@@ -912,9 +912,9 @@ section#team {
 
 .team-member img {
     position: absolute;
-    margin: 0 auto;
+    margin: 90px auto;
     float: left;
-    left: 11%;
+    left: 17%;
 }
 @media (max-width:450px) {
 .carousel-indicators {
