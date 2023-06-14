@@ -1273,7 +1273,7 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 25px;
 }
 h4,
 .h4 {
@@ -4204,7 +4204,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
-    padding-bottom: 0;
+    padding-bottom: 18px;
     overflow: visible !important;
   }
   .navbar-collapse.in {

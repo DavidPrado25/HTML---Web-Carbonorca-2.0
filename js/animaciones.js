@@ -46,7 +46,7 @@ ScrollReveal().reveal('.wrapper', {
 ScrollReveal().reveal('.container-fluid', {
   origin   : 'right',
   distance : '20px',
-  duration : 3500,
+  duration : 4000,
   easing   : 'cubic-bezier(0.5, 0, 0, 1)',
   interval : 200 
 })

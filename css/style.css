@@ -346,7 +346,7 @@ fieldset[disabled] .btn-xl.active {
         border-radius: 0px
     }
     .navbar-default.navbar-shrink {
-        background-color: #222;
+        background-color: rgba(32, 32, 32, 0.959);
         padding: 0px 0;
         box-shadow: 0px 2px 5px #333333;
     }
@@ -518,13 +518,14 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 600;
     margin-top: 0px;
     text-transform: lowercase;
-    letter-spacing: 2px;
+    letter-spacing: 12px;
     margin-bottom: 20px;
+    float: right 100%;
 }
 
 .myCarousel-one-left,
 .myCarousel-one-right {
-    color: #000;
+    color: rgb(17, 4, 4);
     font-size: 32px;
     height: 40px;
     line-height: 40px;
