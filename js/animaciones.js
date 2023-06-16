@@ -3,7 +3,7 @@ window.sr=ScrollReveal();
 //Efecto para logo.
 sr.reveal('.img-responsive2',{
     distance:'50px',
-    duration:7000,
+    duration:5000,
     rotate:{
       x:2,
       y:180, 
@@ -32,7 +32,7 @@ sr.reveal('.cintilloLogoGobierno',{
 
 ScrollReveal().reveal('.navbar-collapse', { duration: 2000 });
 ScrollReveal().reveal('.container-fluid', { duration: 2000 });
-ScrollReveal().reveal('.carousel', { duration: 3000 });
+ScrollReveal().reveal('.carousel', { duration: 5000 });
 
 ScrollReveal().reveal('.wrapper', { 
   origin   : 'right',
