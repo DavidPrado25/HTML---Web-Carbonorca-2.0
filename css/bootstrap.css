@@ -1083,10 +1083,10 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 2.428571;
+  font-size: 14px;
+  line-height: 1.42857143;
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 input,
 button,
@@ -1122,7 +1122,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 102%;
+  max-width: 100%;
   height: auto;
 }
 .img-rounded {
@@ -1273,7 +1273,7 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 25px;
+  font-size: 24px;
 }
 h4,
 .h4 {
@@ -4204,7 +4204,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
-    padding-bottom: 18px;
+    padding-bottom: 0;
     overflow: visible !important;
   }
   .navbar-collapse.in {
@@ -4286,7 +4286,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
 }
 .navbar-brand > img {
-  display:inline-block;
+  display: block;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -6255,7 +6255,6 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
-  backdrop-filter: none;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {

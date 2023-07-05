@@ -1,7 +1,7 @@
 window.sr=ScrollReveal();
  
 //Efecto para logo.
-sr.reveal('.img-responsive2',{
+sr.reveal('.logoCarbon',{
     distance:'50px',
     duration:5000,
     rotate:{

@@ -83,14 +83,14 @@ a.active {
 }
 
 a {
-    color: #ffffffe5;
+    color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #058BCE;
+    color: #000877;
 }
 
 h1,
@@ -100,7 +100,7 @@ h4,
 h5,
 h6 {
     font-family: "lato";
-    text-transform:initial;
+    text-transform: uppercase;
     font-weight: 900;
     text-align: center;
 
@@ -233,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 /* 2.0 ==========   NAVBAR   =============================================================================*/
 
 .top-nav {
-    width: 100%;
+    width: 95%;
 }
 
 .navbar-default {
@@ -285,20 +285,19 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .nav > li > a {
-    padding: 30px 12px !important;
+    padding: 20px 12px !important;
 }
 
 .navbar-default .nav li a {
     font-family: "lato";
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1em;
+    font-weight: 300;
     color: #fff;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    color: #34b5f5;
+    color: #058BCE;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -330,7 +329,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width:768px) {
     .navbar-default {
         background-color: transparent;
-        padding: 100px 0;
+        padding: 12px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -346,16 +345,12 @@ fieldset[disabled] .btn-xl.active {
         border-radius: 0px
     }
     .navbar-default.navbar-shrink {
-        background-color: rgba(32, 32, 32, 0.959) !important;
-        padding: 0px 0;
+        background-color: #222;
+        padding: 6px 0;
         box-shadow: 0px 2px 5px #333333;
     }
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-    }
-    
-    .img-responsive2{
-        display: none;
     }
 }
 
@@ -411,13 +406,6 @@ fieldset[disabled] .btn-xl.active {
     position: relative;
     color: #fff;
     height: 100%;
-}
-
-.cintilloLogoGobierno img{
-    width: 100%;
-    height: auto;
-    position: relative;
-    border-bottom: 3px solid; color: rgb(71, 71, 71);
 }
 
 .intro-text {
@@ -479,9 +467,8 @@ fieldset[disabled] .btn-xl.active {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 120%;
-    height: 120%;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 #myCarousel-one .item:before {
@@ -519,28 +506,27 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 600;
     margin-top: 0px;
     text-transform: lowercase;
-    letter-spacing: 12px;
+    letter-spacing: 2px;
     margin-bottom: 20px;
-    float: right 100%;
 }
 
 .myCarousel-one-left,
 .myCarousel-one-right {
-    color: rgb(17, 4, 4);
+    color: #000;
     font-size: 32px;
     height: 40px;
     line-height: 40px;
     margin-top: -20px;
     position: absolute;
     text-align: center;
-    top: 60%;
+    top: 50%;
     width: 32px;
     z-index: 999;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
     -o-transition: 300ms;
     -ms-transition: 300ms;
-    transition: 200ms;
+    transition: 300ms;
 }
 
 .myCarousel-one-left {
@@ -678,8 +664,8 @@ section {
 }
 
 section#services {
-    background-image: url(../img/backgrounds/services-bg.png);
-    background-position: 12px center;
+    background-image: url(../img/backgrounds/services-bg.jpg);
+    background-position: center;
     background-size: cover;
 }
 .service {padding: 0px 45px;}
@@ -687,13 +673,14 @@ section#services {
 .service-heading {
     margin: 25px 0px 15px 0px;
     text-transform: none;
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 18px;
+
 }
 
 section#services .section-subheading {
-    color: rgb(0, 0, 0) !important;
+    color: #fff !important;
 }
 
 section h2.section-heading {
@@ -701,11 +688,12 @@ section h2.section-heading {
     margin-top: 0;
     text-align: center;
     text-transform: uppercase !important;
-    color: #060aeeef;
+    color: #011083;
+    
 }
 
 section h3.section-subheading {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: none;
@@ -718,7 +706,7 @@ section h3.section-subheading {
 
 .text-services {
     text-transform: none;
-    color: #161212;
+    color: #fff;
     font-weight: 400;
     line-height: 22px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -784,8 +772,9 @@ section h3.section-subheading {
 /* Team members images are set within the HTML using inline CSS, not here */
 
 section#team {
-    background-color: #FEFEFE;
+    background-image:url('../img/backgrounds/Carbo2.png');
     padding-bottom: 0px !important;
+    background-size: cover;
 }
 
 .carousel {
@@ -912,11 +901,12 @@ section#team {
     margin: 0 auto;
 }
 
-.team-member img {
+.team-member img{
     position: absolute;
-    margin: 90px auto;
+    margin: 0 auto;
     float: left;
-    left: 17%;
+    left: 11%;
+    top: 70px;
 }
 @media (max-width:450px) {
 .carousel-indicators {
@@ -1024,11 +1014,6 @@ section#portfolio {
     width: 100%;
 }
 
-.img-responsive2 {
-    width: 150%;
-   background-position: -100px 20px;
-}
-
 .portfolio-items {
     padding: 0px !important;
 }
@@ -1085,7 +1070,7 @@ section#portfolio {
 }
 
 .portfolio-item:hover {
-    background-color: rgba(255, 255, 255, 0.349);
+    background-color: #fff;
     z-index: 9999;
 }
 
@@ -1094,19 +1079,19 @@ section#portfolio {
     text-align: center;
     margin: 0 auto;
     color: #000000;
-    background: linear-gradient(to right, #3400f1, #ffffff, #000000);
+    background: linear-gradient(to right, #2402bb, #ffffff,rgb(0, 0, 0));
     padding: 25% 0;
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: all 0.9s;
+    transition: all 0.5s;
 }
 
 .hover-bg .hover-text>h4 {
     opacity: 0;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
-    transition: all 0.2s;
+    transition: all 0.3s;
     font-size: 35px;
 }
 
@@ -1237,9 +1222,9 @@ ul.filter li {
 }
 
 ul.filter li a {
-    padding: 16px 25px;
+    padding: 15px 25px;
     border-radius: 0px 288px 400px 400px / 0px 135px 12px 105px;
-    background-color: #1013dbef;
+    background-color: #0021dbcb;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -1248,7 +1233,7 @@ ul.filter li a {
 }
 
 ul.filter li a:hover {
-    background-color: #080808;
+    background-color: #48AAF1;
 }
 
 
@@ -1363,11 +1348,13 @@ body {
 }
 
 
-/* 9.0 ============  PRICING  = Productos */ 
+/* 9.0 ============  PRICING  = */
 
 #pricing {
+    background-image: url(../img/backgrounds/services-bg.webp);
+    background-repeat:unset;
     background-color: #FEFEFE;
-    padding-bottom: 85px;
+    padding-bottom: 120px;
 }
 
 .pricing-title {
@@ -1388,7 +1375,7 @@ body {
 }
 
 .pricing {
-    background-color: #f7f7f7;
+    background-color: #e2dbdb00;
     margin-top: 30px;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -1397,17 +1384,17 @@ body {
     transition: all 0.2s ease-in-out;
     box-sizing: content-box;
     border-radius: 52px 44px 43px 43px;
-    -webkit-border-radius: 52px 44px 43px 43px;
-    -moz-border-radius: 52px 44px 43px 43px;
 }
 
 .pricing:hover {
-    box-shadow: 0px 0px 18px rgb(90, 89, 89);
+    box-shadow: 0px 0px 18px rgb(150, 144, 144);
+    border-radius: 52px 44px 43px 43px;
 }
 
 .pricing h5 {
     margin-top: 0;
     padding: 25px 0px 10px 0px;
+    border-radius: 52px 44px 43px 43px;
 }
 
 .pricing .border {
@@ -1415,30 +1402,23 @@ body {
     margin-bottom: 15px;
     background-color: #058BCE;
     height: 2px;
+    border-radius: 52px 44px 43px 43px;
 }
 
 .pricing ul {
     list-style: none;
     padding: 0;
+    border-radius: 52px 44px 43px 43px;
 }
 
 .pricing ul li {
     padding: 8px 0;
-    font-size: 150%;
+    font-size: 15px;
     font-family: "source sans pro";
-    font-weight: bold;
-}
-
-.pricing ul .productoImagen {
-    
-    background-color: rgba(253, 253, 253, 0.103);
-    border-radius: 52px 44px 43px 43px;
-    -webkit-border-radius: 52px 44px 43px 43px;
-    -moz-border-radius: 52px 44px 43px 43px;
 }
 
 .pricing ul li img {
-    width: 95%;
+    max-width: 100%;
     border-radius: 52px 44px 43px 43px;
     -webkit-border-radius: 52px 44px 43px 43px;
     -moz-border-radius: 52px 44px 43px 43px;
@@ -1448,12 +1428,19 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding: 15px 60px;
-    background-color: #058BCE;
+    background-color: #0021dbcb;
     border-radius: 0;
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 500;
+-moz-border-radius: 114px 114px 114px 114px;
+-webkit-border-radius: 114px 114px 114px 114px;
+border: 0px solid
+}
+
+.pricing a.btn-send {
+    border-radius: 52px 44px 43px 43px;
 }
 
 .pricing a.btn-send:hover {
@@ -1461,7 +1448,7 @@ body {
 }
 
 .pricing ul li:nth-child(even) {
-    background: #E6E6E6;
+    background: #60606012;
 }
 
 .pricing-top-box {
@@ -1499,9 +1486,9 @@ body {
 }
 
 #clients {
-    background-color: #a19b9b85;
-    min-height: 120px;
-    padding: 15px 0px;
+    background-color: #b3b1b19e;
+    min-height: 160px;
+    padding: 25px 0px;
 }
 
 .container-fluid-clients {
@@ -1512,11 +1499,11 @@ body {
 }
 
 
-/* 11.0 ==============================================  NOTICIAS  ==*/
+/* 11.0 =========================================================================  TESTIMONIALS  ==*/
 
 #testimonials {
-    background: #003f97;
-    padding: 12px 0 100px 0;
+    background: #266DD1;
+    padding: 70px 0 100px 0;
     min-height: 450px;
 
 }
@@ -1564,10 +1551,9 @@ section#testimonials .section-subheading {
     background-color: #fff;
     color: #626262;
     font-size: 14px;
-    margin-top: -13px;
+    margin-top: 27px;
     padding: 15px 18px;
-    height: 50%;
-    width: 50%;
+    height: 100%;
     float: left;
 }
 
@@ -1585,7 +1571,7 @@ section#testimonials .section-subheading {
 .company-address,
 .company-contact {
     padding-top: 20px;
-    color: #fff;
+    color: rgb(255, 255, 255) !important;
 
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -1601,18 +1587,20 @@ section#contact {
     background-image: url(../img/backgrounds/Carbonorca-nueva3.jpg);
     background-position: center;
     background-size: cover;
-    padding-bottom: 40px;
-    min-height: 748px;
+    padding-bottom: 50px;
+    min-height: 500px;
    box-shadow: none !important;
-  margin-bottom: 2px !important;
+  margin-bottom: 0px !important;
 }
+
+
 
 
 section#contact .section-heading {
-    color: #fff !important;
+    color: #11086de8 !important;
 }
 section#contact .section-subheading {
-    color: #fff !important;
+    color: #11086de8 !important;
 }
 section#contact .section-heading-contact {
     font-size: 60px;
@@ -1680,13 +1668,12 @@ margin-top: 20px;
 }
 
 /* 13.0 ========  FOOTER  ================*/
-
 .to-top-button {
     position: absolute;
 }
 footer {
     padding: 53px 0px 30px 0px;
-    background-color: #0A0A0A;
+    background-color: #1f1818;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1704,7 +1691,7 @@ footer {
     width: 170px;
 }
 .footer-text {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -1779,6 +1766,87 @@ ul.social-buttons li a:active {
     }
 }
 
+/***Diseño II****/
+
+.footer {
+	background: rgb(34 31 31);
+	color: #dacfcf;
+	font-size: 15px;
+	padding: 36px 0 40px 0;
+	margin-top: 1px;
+}
+
+.footer ul.socialIcons {
+    padding: 4px;
+    text-align: center;
+  }
+  
+.footer ul.socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: -6px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+.footer ul.socialIcons li a {
+    display: block;
+    padding: 1.8em;
+    min-width: 2.285714em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em; /*it's working only when you write text with icon*/
+    transition: 0.6s;
+    text-decoration: none;
+    font-family: 'lato';
+    color: #fff;
+  }
+  
+.footer ul.socialIcons li a i {
+    position: relative;
+    right: 19px;
+    top: -15px;
+    margin-right: 0.5em;
+    padding: 10px;
+  }
+  
+.footer ul.socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  
+.footer ul.socialIcons li.facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+    font-size: 'lato';
+  }
+  
+.footer ul.socialIcons li.twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+    font-size: 'lato';
+  }
+  
+.footer ul.socialIcons li.instagram {
+    background-color: #cd486b;
+    box-shadow: 40 10 40px #ff0044;
+    font-size: 'lato';
+  }
+    
+.footer ul.socialIcons li.tiktok {
+    background-color: #000000;
+    box-shadow: 0 0 16px #000000;
+    font-size: 'lato';
+  }
+ 
+  .footer ul.socialIcons li.youtube {
+    background-color: #d60000;
+    box-shadow: 0 0 16px #ff0000;
+    font-size: 'lato';
+  }
+  
 /* 13.1 ================== Scroll to top =============== */
 
 
@@ -1936,87 +2004,3 @@ ul.social-buttons li a:active {
     float: left;
     width: 100%;
 }
-
-
-.footer {
-	background: rgb(34 31 31);
-	color: #dacfcf;
-	font-size: 20px;
-	padding: 36px 0 40px 0;
-	margin-top: 1px;
-}
-
-/***Diseño II****/
-
-.footer ul.socialIcons {
-    padding: 4px;
-    text-align: center;
-  }
-  
-.footer ul.socialIcons li {
-    background-color: yellow;
-    list-style: none;
-    display: inline-block;
-    margin: -6px;
-    border-radius: 2em;
-    overflow: hidden;
-  }
-  
-.footer ul.socialIcons li a {
-    display: block;
-    padding: 1.8em;
-    min-width: 2.285714em;
-    max-width: 1.28571429em;
-    height: 1.28571429em;
-    white-space: nowrap;
-    line-height: 1.5em; /*it's working only when you write text with icon*/
-    transition: 0.6s;
-    text-decoration: none;
-    font-family: 'lato';
-    color: #fff;
-  }
-  
-.footer ul.socialIcons li a i {
-    position: relative;
-    right: 19px;
-    top: -15px;
-    margin-right: 0.5em;
-    padding: 10px;
-  }
-  
-.footer ul.socialIcons li:hover a {
-    max-width: 200px;
-    padding-right: 1em;
-  }
-  
-.footer ul.socialIcons li.facebook {
-    background-color: #3b5998;
-    box-shadow: 0 0 16px #3b5998;
-    font-size: 'lato';
-  }
-  
-.footer ul.socialIcons li.twitter {
-    background-color: #00aced;
-    box-shadow: 0 0 16px #00aced;
-    font-size: 'lato';
-  }
-  
-.footer ul.socialIcons li.instagram {
-    background-color: #cd486b;
-    box-shadow: 40 10 40px #ff0044;
-    font-size: 'lato';
-  }
-    
-.footer ul.socialIcons li.tiktok {
-    background-color: #000000;
-    box-shadow: 0 0 16px #000000;
-    font-size: 'lato';
-  }
- 
-  .footer ul.socialIcons li.youtube {
-    background-color: #d60000;
-    box-shadow: 0 0 16px #ff0000;
-    font-size: 'lato';
-  }
-
-  
